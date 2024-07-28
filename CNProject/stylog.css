@@ -1,0 +1,62 @@
+body{
+    background: #001e4d;
+}
+.login{
+    background: #fff;
+    margin: 70%;
+    max-width: 700px;
+    margin:100px auto 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 50px;
+}
+.login h1{
+    text-align: center;
+    font-size:xx-large;
+    color:darkblue;
+    font-weight:800;
+    font-style: italic;
+    
+    padding: 20px;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #001e4d;
+}
+#submit
+{
+        background: #001e4d;
+        color: #fff;
+        font-size: medium;
+        width: 170px;
+        font-weight:500;
+        font-family: 'Poppins',sans-serif;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 250px;
+        padding: 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: width 1s ;
+}
+#submit:hover{
+    width:190px;
+}
+#reg
+{
+    font-size:larger;
+    font-weight:600;
+    font-family: 'Poppins',sans-serif;
+    color:darkblue;
+    font-style: italic;
+}
+input{
+    background: #fff;
+    color: brown;
+    font-weight: 600;
+    width: 300px;
+    border: 1px solid black;
+    font-size: medium;
+    padding: 12px;
+    margin: 10px 0; 
+    border-radius: 4px;
+}

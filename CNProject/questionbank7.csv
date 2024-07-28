@@ -1,0 +1,106 @@
+"ID","Questions","A","B","C","D","Correct"
+"1","What is the purpose of the Telnet protocol?","To share files between server and client","To manage network elements","To establish a remote login connection","To provide a secure FTP connection","C"
+"2","Which protocol is used for file transfer on the internet?","FTP","SNMP","TFTP","Telenet","A"
+"3","What is the role of a DNS server?","Translating domain names into IP addresses","Storing and sharing files on the network","Managing network elements","Establishing remote login connections","A"
+"4"," What is the main advantage of a client-server architecture?","Direct communication between clients"," Scalability and centralized backup","Peer-to-peer file sharing","Self-scalability and cost-effectiveness","B"
+"5","Which protocol is used for network management and monitoring?","FTP","SNMP","TFTP","Telenet","B"
+"6","What is the purpose of the SNMP agent?","To manage network elements","To store and share files"," To establish remote login connections"," To monitor and control network devices","D"
+"7","What does TFTP stand for?","Trivial File Transfer Protocol","Trial File Transfer Protocol","Trivial File Transmission Protocol","Trial File Transmission Protocol","A"
+"8","Which protocol is used for transferring files between local and remote file systems?","FTP","SNMP","TFTP","Telenet","A"
+"9","What is the main characteristic of a peer-to-peer architecture?","Dedicated server for file sharing","Centralized backup of data","Communication between peers without a dedicated server","Use of client-server applications","C"
+"10","What is the role of DNS in the functioning of the internet?","Translating domain names into IP addresses","Sharing files between clients","Remote login to different systems","Managing network elements","A"
+"11","The non-ASCII character 00111001 in 64-Base has value:","5","I","K","Z","A"
+"12","PGP stands for","Private Guarding Protocol","Privacy Guarding Protocol","Pretty Good Privacy","Personal Guided Privacy","C"
+"13","The non-ASCII character 11001100 in 64-Base has value:","5","I","K","Z","D"
+"14","Which protocol is used for sharing files among machines in a local intranet?","FTP","SNMP","TFTP","Telenet","A"
+"15","What is the main disadvantage of a client-server network?","Traffic congestion","Lack of robustness","Lack of scalability","Incompatibility with different systems","A"
+"16","What is the role of the Telnet client in remote login?","To translate characters into a universal character set","To establish a secure connection between client and server","To establish a remote login connection","To manage network elements","C"
+"17","What is the main advantage of a peer-to-peer architecture?","Dedicated server for file sharing","Centralized backup of data","Communication between peers without a dedicated server","Use of client-server applications","C"
+"18","Which protocol is used for managing devices on the internet?","FTP","SNMP","TFTP","Telenet","B"
+"19","Which supplementary protocol that allows non-ASCII data to be sent through E-mail?","MIME","MEMI","SMTP","SNMP","A"
+"20","What is the main advantage of using SNMP for network management?","Speed and efficiency in transferring files","Compatibility with every system"," Secure transmission of passwords and file contents","Centralized management and monitoring of network elements","D"
+"21","In opinion negotiation of TELENET, the three characters involved while accepting request are:","IAC,WILL,ECHO","IAC,DO,ECHO","IAC,WILL,DO","WILL,ECHO,DO","A"
+"22","In opinion negotiation of TELENET, the three characters involved in the request are:","IAC,WILL,ECHO","IAC,DO,ECHO","IAC,WILL,DO","WILL,ECHO,DO","B"
+"23","For the client to switch to character mode, client requests server to enable options namely:","ENABLE GO AHEAD, ECHO","ENABLE GO BACK, ECHO","DISABLE GO BACK, ECHO","DISABLE GO AHEAD, ECHO","A"
+"24","When server and client are on different mail servers, how many UAs and MTAs are needed?","2,2","2,1","1,1","1,2","A"
+"25","When both server and client are connected to mail server via LAN, what is needed?","2 UAs, 4 MTAs, 4 MAAs","2 UAs, 4 MTAs, 2 MAAs","2 UAs, 4 MTAs","2 UAs, 2 MTAs","A"
+"26","____ is the standard protocol provided by TCP/IP for copying a file from one host to another.","FTP","SMTP","MFT","None ","A"
+"27","Why should we choose HTTP ove FTP?","It is a better choice to transfer large files.","It is a better choice to transfer small files.","Better to transfer the files of same format.","None ","A"
+"28","FTP uses two well-known TCP ports, what port does control connection use?","port 21 ","port 20 ","port 19","port 23","A"
+"29","FTP uses two well-known TCP ports, what port does data connection use?","port 20","port 21","port 19","port 23","A"
+"30","What does FTP control connection command - PWD do?","Display name of the current directory","Display name of the next directory","Display name of the previous directory","None ","A"
+"31","Which is not a function of telnet?","Used for file transfer ","Used for remote login","lets user access an application on a remote computer","Used for general client-server connection","A"
+"32","What is the main difference between local logging and remote logging in telnet?","Local logging uses a TELNET client and 
+server, while remote logging does not.","In local logging, characters are sent directly to 
+the operating system, while in remote logging,
+ characters are transformed into NVT 
+characters.","Local logging requires the use of a pseudoterminal driver, 
+whereas remote logging does not.","There is no significant difference between 
+local logging and remote logging.","B"
+"33","What role does the TELNET client play in the process of remote logging?","It interprets characters locally and delivers 
+them to the operating system.","It transforms characters into NVT characters 
+and sends them to the TCP/IP stack.","It converts NVT characters back to local characters for the 
+user's understanding."," It simulates a terminal driver for the 
+remote operating system.","B"
+"34","Why is a pseudoterminal driver required in the remote logging process","To interpret characters for the user.","To handle the conversion of characters to 
+NVT format.","To deliver characters to the local TCP/IP stack.","To make the remote operating system 
+believe that characters are coming from 
+a terminal.","D"
+"35","What is the purpose of the Network Virtual Terminal (NVT) character set?","To send characters over the Internet."," To interpret characters for the user."," To deliver characters to the operating system.","To standardize characters for transmission
+ across different systems.","D"
+"36","In the process of remote logging, where are the characters transformed from NVT format back to a format 
+understood by the remote computer?","Local operating system"," TELNET client","Local TCP/IP stack","TELNET server","D"
+"37","Why is accessing a remote computer considered complex?","Each remote computer uses a different 
+operating system.","Remote computers require specialized hardware.","There is no standardized method for remote access.","Remote computers do not accept character tokens.","A"
+"38","What character token signifies the end of a file in the DOS operating system?","Ctrl+z","Ctrl+d","Ctrl+e","Ctrl+c","A"
+"39","How does TELNET address the challenge of accessing heterogeneous systems?","By standardizing hardware requirements.","By installing a universal terminal emulator on all remote computers.","By defining the Network Virtual Terminal (NVT) character set.","By establishing a direct connection to each remote computer.","C"
+"40","What role does the client TELNET play in the process of remote access?"," Translating characters from NVT form to the local terminal format.","Translating data and commands from NVT form to the remote computer format.","Determining the type of remote computer to connect to.","Installing a universal terminal emulator on the local system.","A"
+"41","How does the server TELNET contribute to remote access?"," It connects to the local terminal."," It defines the NVT character set.","It standardizes hardware on remote computers.","It translates data and commands from NVT form to the remote computer's acceptable format.","D"
+"42","In FTP, what is the main distinction between the control connection and the data connection?","The control connection remains open during 
+the entire FTP session, while the data 
+connection opens and closes for each file 
+transfer.","Both control and data connections remain open 
+for the entire session.","The control connection opens and closes for each file 
+transfer, while the data connection remains constant.","The control and data connections have 
+the same lifetime.","A"
+"43","When does the data connection open and close in FTP?","It opens at the beginning of an FTP session 
+and closes at the end.","It opens once and remains open for all file 
+transfers."," It opens and closes for each file transfer activity.","It opens only when downloading files.","C"
+"44","If multiple files are transferred during an FTP session, how does the data connection behave?","It opens once and remains open for all files.","It opens a new connection for each file and 
+closes after each transfer.","It opens a new connection for each file and remains open 
+until the session ends.","It opens for the control connection and the
+ data connection separately for each file.","B"
+"45","Which connection in FTP is responsible for sending commands and receiving responses?","The data connection","Both the control and data connections","The control connection","The data connection for downloading, 
+the 
+control connection for uploading","C"
+"46","In the control connection of FTP, what types of communication occur between the client and server?","File transfers","Command and response exchanges","Video streaming","Peer-to-peer data sharing","B"
+"47","How are FTP commands typically formatted when sent from the client to the server?"," Using lowercase characters"," In binary format"," In the form of ASCII uppercase, possibly followed by an 
+argument","Using only numeric values","C"
+"48","Which type of connection in FTP is responsible for sending commands and responses?","The data connection","Both control and data connections","The control connection","A separate management connection","C"
+"49","What term is used to describe generic client/server pairs that allow users to log into remote computers and use
+ available services?","Remote debugging applications","Remote hacking protocols","Remote logging applications","Remote encryption services","C"
+"50","Why is TELNET considered vulnerable to hacking?","It lacks support for remote logging.","It requires complex encryption for data transfer.","It sends all data, including passwords, in plaintext.","It has a limited set of supported services.","C"
+"51"," Which protocol is responsible for email communication and is commonly used for sending and receiving emails?"," DNS (Domain Name System)"," SMTP (Simple Mail Transfer Protocol)"," HTTP (Hypertext Transfer Protocol)"," SNMP (Simple Network Management Protocol)","B"
+"52"," Which network protocol is used for securely accessing and managing network devices such as routers and switches?"," FTP (File Transfer Protocol)"," ICMP (Internet Control Message Protocol)"," SNMP (Simple Network Management Protocol)"," SMTP (Simple Mail Transfer Protocol)","C"
+"53"," What is the primary benefit of using BGP (Border Gateway Protocol) in internet routing?"," It simplifies routing tables"," It optimizes network performance"," It ensures network security"," It enables inter-domain routing","D"
+"54"," Which protocol is commonly used for securely transferring files over a network?"," ICMP (Internet Control Message Protocol)"," SSH (Secure Shell)"," SNMP (Simple Network Management Protocol)"," SMTP (Simple Mail Transfer Protocol)","B"
+"55"," Which protocol is used for securely accessing and managing network devices such as routers and switches?"," FTP (File Transfer Protocol)"," ICMP (Internet Control Message Protocol)"," SNMP (Simple Network Management Protocol)"," SMTP (Simple Mail Transfer Protocol)","C"
+"56"," Which network protocol is responsible for the exchange of email messages?"," DNS (Domain Name System)"," SMTP (Simple Mail Transfer Protocol)"," HTTP (Hypertext Transfer Protocol)"," SNMP (Simple Network Management Protocol)","B"
+"57"," What is the primary function of the Application Layer in the OSI model?"," To provide end-to-end communication between applications"," To manage data transmission over the physical medium"," To ensure network reliability and error correction"," To control physical devices in the network","A"
+"58"," In the context of networking what does HTTP (Hypertext Transfer Protocol) stand for?"," Hypertext Transmission Protocol"," Hypertext Transfer Process"," Hypertext Transport Protocol"," Hypertext Transfer Protocol","D"
+"59"," What is the primary purpose of SMTP (Simple Mail Transfer Protocol)?"," To transmit email messages between email clients and servers"," To resolve domain names into IP addresses"," To retrieve web pages from web servers"," To secure network communication","A"
+"60"," Which protocol is commonly used for email transmission between mail clients and servers?"," SMTP (Simple Mail Transfer Protocol)"," HTTP (Hypertext Transfer Protocol)"," FTP (File Transfer Protocol)"," DNS (Domain Name System)","A"
+"61"," What is SNMP (Simple Network Management Protocol) used for in network management?"," To monitor and manage network devices and components"," To transmit email messages"," To resolve domain names into IP addresses"," To retrieve web pages","A"
+"62"," Which protocol is used for the secure transmission of files between clients and servers?0"," FTP (File Transfer Protocol)"," SMTP (Simple Mail Transfer Protocol)"," HTTP (Hypertext Transfer Protocol)"," SNMP (Simple Network Management Protocol)","A"
+"63"," In FTP (File Transfer Protocol) what is the primary function of the Control Connection?"," To manage the interaction between the client and server"," To transmit file data between the client and server"," To resolve domain names"," To retrieve web pages","A"
+"64"," Which protocol is used for retrieving web pages from web servers?"," HTTP (Hypertext Transfer Protocol)"," SMTP (Simple Mail Transfer Protocol)"," FTP (File Transfer Protocol)"," SNMP (Simple Network Management Protocol)","A"
+"65"," What is the primary function of the Data Connection in FTP (File Transfer Protocol)?"," To transmit file data between the client and server"," To manage the interaction between the client and server"," To resolve domain names"," To retrieve web pages","A"
+"66"," In the context of network protocols what does FTP (File Transfer Protocol) stand for?"," File Transmission Protocol"," File Transfer Process"," File Transport Protocol"," File Transfer Protocol","D"
+"67"," Which protocol is responsible for the secure transmission of web pages over the internet?"," HTTPS (Hypertext Transfer Protocol Secure)"," HTTP (Hypertext Transfer Protocol)"," FTP (File Transfer Protocol)"," SMTP (Simple Mail Transfer Protocol)","A"
+"68"," What is the purpose of the FTP (File Transfer Protocol)?"," To demonstrate secure file transmission"," To showcase web page retrieval"," To illustrate email transmission"," To highlight network management","A"
+"69"," In the context of network protocols what does SMTP (Simple Mail Transfer Protocol) stand for?"," Secure Mail Transfer Protocol"," Simple Message Transport Protocol"," Simple Mail Transport Protocol"," Simple Mail Transfer Protocol","D"
+"70"," What is the primary function of SMTP (Simple Mail Transfer Protocol) in email communication?"," To transmit email messages between email clients and servers"," To resolve domain names into IP addresses"," To manage network devices"," To secure web page retrieval","A"
+"71"," Which protocol is responsible for the secure transmission of email messages between email clients and servers?"," SMTPS (Simple Mail Transfer Protocol Secure)"," HTTPS (Hypertext Transfer Protocol Secure)"," HTTP (Hypertext Transfer Protocol)"," FTPS (File Transfer Protocol Secure)","A"
+"72"," What is the primary purpose of SNMP (Simple Network Management Protocol) in network management?"," To monitor and manage network devices and components"," To transmit email messages"," To resolve domain names into IP addresses"," To retrieve web pages","A"
+"73"," Which protocol is responsible for the secure management of network devices and components?"," SNMPv3 (Simple Network Management Protocol version 3)"," HTTP (Hypertext Transfer Protocol)"," FTP (File Transfer Protocol)"," SMTP (Simple Mail Transfer Protocol)","A"
+"74"," What is the primary function of SNMPv3 (Simple Network Management Protocol version 3) in network management?"," To resolve domain names into IP addresses"," To provide secure monitoring and management of network devices and components"," To retrieve web pages"," To transmit email messages","B"
